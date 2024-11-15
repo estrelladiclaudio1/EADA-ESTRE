@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="fondo-inicio">
+    <div class="contenedor-inicio">
+        <h2 class="inicio-subtitulo">Iniciar Sesión</h2>
+        <form action="valida_inicio.php" method="post">
+            <label class="descripcion-inicio" name="username">Usuario:</label>
+            <input class="relleno-inicio" type="text" name="username" required>
+
+            <label class="descripcion-inicio" name="password">Contraseña:</label>
+            <input class="relleno-inicio" type="password" name="password" required>
+            
+            <button class="envio-usuario" type="submit">Iniciar Sesión</button>
+        </form>
+    </div>
+</body>
+</html>

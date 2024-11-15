@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="fondo-inicio">
+    <div class="contenedor-inicio">
+        <h2 class="inicio-subtitulo">Registrarse</h2>
+        <form action="valida_regis.php" method="post">
+            <label class="descripcion-inicio" for="Nombre">Usuario:</label>
+            <input type="text" name="Nombre" class="relleno-inicio" required>
+
+            <label class="descripcion-inicio" for="Apellido">Apellido:</label>
+            <input type="text" name="Apellido" class="relleno-inicio" required>
+
+            <label class="descripcion-inicio" for="Email">Email:</label>
+            <input type="email" name="Email" class="relleno-inicio" required>
+
+            <label class="descripcion-inicio" for="Telefono">Teléfono:</label>
+            <input type="tel" name="Telefono" pattern="[0-9]+" class="relleno-inicio" required>
+
+            <label class="descripcion-inicio" for="Contraseña">Contraseña:</label>
+            <input type="password" name="Contraseña" class="relleno-inicio" required>
+
+            <button type="submit" name="registrar" class="envio-usuario">Registrarse</button>
+        </form>
+    </div>
+</body>
+</html>

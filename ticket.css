@@ -1,0 +1,149 @@
+/* Clase para el fondo de la página */
+.fondo-pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    background: #ffe4e1; /* Color de fondo */
+    margin: 0;
+    text-align: center;
+}
+
+/* Clase para el título de bienvenida */
+.titulo-bienvenida {
+    font-size: 2.5rem;
+    color: #ff69b4;
+    margin-bottom: 10px;
+}
+
+/* Clase para el subtítulo */
+.subtitulo-accion {
+    font-size: 1.8rem;
+    color: #333333;
+    margin-bottom: 5px;
+}
+
+/* Clase para el texto secundario */
+.texto-secundario {
+    font-size: 1.2rem;
+    color: #555555;
+    margin-bottom: 20px;
+}
+
+/* Clase para el formulario de botones */
+.formulario-botones {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espacio entre botones */
+    width: 90%;
+    max-width: 400px; /* Máximo ancho del formulario */
+}
+
+/* Clase para los botones con efecto de animación */
+.boton-animado {
+    padding: 15px;
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    background-color: #ff69b4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s; /* Suaviza el cambio de color y el efecto de clic */
+}
+
+.boton-animado:hover {
+    background-color: rgb(158, 69, 154);
+}
+
+.boton-animado:active {
+    transform: scale(0.98); /* Efecto de clic */
+}
+
+/* Estilo del fondo de la página */
+.ticket_c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: #ffe4e1; /* Color de fondo de la página */
+    margin: 0;
+}
+
+/* Contenedor del formulario */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff; /* Fondo blanco del formulario */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%; /* Ancho relativo para dispositivos móviles */
+    max-width: 600px; /* Máximo ancho del formulario */
+    margin: 20px; /* Espacio alrededor del formulario */
+}
+
+/* Encabezado del formulario */
+.container h2 {
+    font-size: 2rem;
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
+
+/* Estilo de secciones dentro del formulario */
+.section {
+    margin-bottom: 20px;
+}
+
+/* Subtítulos de las secciones */
+.section h3 {
+    font-size: 1.5rem;
+    color: #333333;
+    margin-bottom: 10px;
+}
+
+/* Estilo de etiquetas */
+.section label {
+    font-size: 1rem;
+    color: #333333;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilo de los campos de entrada */
+.section input[type="text"],
+.section input[type="date"],
+.section select,
+.section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* Estilo del botón de envío */
+button[type="submit"] {
+    width: 100%; /* Ancho completo del contenedor */
+    max-width: 300px; /* Máximo ancho para que el botón no sea demasiado grande */
+    padding: 15px;
+    margin: 20px auto 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #ff69b4;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background-color 0.3s; /* Transición suave */
+}
+
+/* Efecto hover para el botón */
+button[type="submit"]:hover {
+    background-color: rgb(158, 69, 154);
+}
